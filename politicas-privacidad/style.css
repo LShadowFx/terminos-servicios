@@ -1,68 +1,101 @@
-* {
-    font-family:   'Lucida Sans Unicode';
-    margin: 0;
-}
-
 body {
-    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ccc; /* Fondo html */
+    color: #fff; /* Texto blanco */
 }
 
 header {
-    text-align: start;
-    margin-bottom: 25px;
-    text-shadow: 1px 2px;
-    margin-bottom: 60px;
-}
-
-strong {
-    color: #eee;
-    text-shadow: 0px 1px 1px;
-}
-
-div {
-    margin: 25px auto;
-    background-color: #222;
-    color: white;
-    text-align: center;
-    width: 75%;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-ol {
-    background-color: #222;
-    width: 80%;
-    margin: 0 auto;
-    color: white;
-    padding: 15px 40px;
-    border-radius: 10px;
-}
-
-p {
-    padding-top: 5px;
-}
-
-li {
-    padding-top: 10px;
-    border-bottom: 2px solid;
-    border-color: #00B576;
-    border-width: 2.3px;
+    box-shadow: 10px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 h1 {
-    color: #C00300;
-    text-shadow: 2px 1px 4px;
+    color: #01AB84;
+    text-shadow: 2px 1px 3px;
+}
+
+h4 {
     position: relative;
-    margin-left: 20px;
-    top: 18px;
-    left: 61px;
+    bottom: 12;
+    left: 72;
+    color: #b00;
+}
+
+a {
+    color: #00d1a1;
+}
+
+a:hover {
+    color: #b00;
+    transition: 2s;
+}
+
+h3 {
+    color: #E6E6E6;
+    border-bottom: 3px solid #902; /* Línea separadora rojo oscuro */
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 2px #333;
+    cursor: pointer;
+}
+
+.main_text {
+    font-family: sans-serif;
+    color: #fff;
+    display: none;
+}
+
+strong {
+    text-shadow: 1px 1px 4px #666;
+}
+.Terminos_y_condiciones {
+    max-width: 800px;
+    text-align: left;
+    box-shadow: #000;
+    border: 2px solid;
+    border-color: #000;
+    background-color: #111;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #501;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+
+.Terminos_y_condiciones_title {
+    font-size: large;
+    font-family:sans-serif;
 }
 
 img {
-    position: relative;
-    bottom: 53px;
     width: 50px;
+    border-radius: 50%;
     float: left;
     margin: 20px 20px;
-    border-radius: 25px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px #501; /*sombreado*/
+    border-radius: 10px;
+    text-align: left;
+    color: #333;
+    border-color: #111;
+    border: 2px solid;
+    background-color: #111; /*color dentro de la box*/
+}
+
+li {
+    color: #F2F2F2;
+    text-shadow: 0px 0px 6px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #F2F2F2;
 }
