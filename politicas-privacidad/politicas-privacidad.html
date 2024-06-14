@@ -2,33 +2,38 @@
     <head>
         <Title>Politicas de Privacidad</Title>
         <link rel="stylesheet" href="./style.css">
+
+        <title>Politicas de Privacidad</title>
+        <script src="../control.js" defer></script>
     </head>
     <body>
         <header>
-            <h1 class="Titulo">Políticas y Privacidad</h1>
             <img src="../Image-x_bot.png" alt="LProyectFx">
-            <!-- <h3>Actualizado el 18/03/2024</h3> -->
+            <h1>Políticas de Privacidad</h1>
+            <h4>Actualizado el 13/06/2024</h4>
         </header>
-        <main>
-            <div>
-                <p>Bienvenido a nuestras politicas de privacidad, El bot <strong>LProyectFx</strong> se compromete a proteger la privacidad de los datos de los usuarios. Al utilizarlo, aceptas las siguientes políticas de privacidad:</p>
+
+            <div class="Politicas_y_privacidad">
+                <p class="Politicas_y_privacidad_title">Bienvenido a nuestras políticas de privacidad <br><br> El bot <strong>LProyectFx</strong> se compromete a proteger la privacidad de los datos de los usuarios. Al utilizarlo, aceptas las siguientes políticas de privacidad:</p>
             </div>
-            <ol>
-                <li class="lista_privacidad">Recopilación de datos</li>
-                <p><strong>LProyectFx</strong> puede recopilar metadatos de tu perfil como nombre de usuario en el servidor, roles, insignias, fecha de union entre otras preferencias de configuración, para mejorar la experiencia del usuario.</p>
-                <li class="lista_privacidad">Uso de Datos</li>
-                <p>Los datos recopilados por <strong>LProyectFx</strong> se utilizaran únicamente para mejorar la funcionalidad del bot y la experiencia de los usuarios en los servidores.</p>
-                <li class="lista_privacidad">Seguridad de Datos</li>
-                <p><strong>LProyectFx</strong> Implementará medidas de seguridad adecuadas, como encriptacion y acceso restringido, para proteger los datos recopilados de accesos no autorizados o uso indebido.</p>
-                <li class="lista_privacidad">Divulgación de Datos</li>
-                <p><strong>LProyectFx</strong> no compartirá ningun tipo de información de los usuarios con terceros sin consentimiento, salvo que sea requerido por ley o por reglas del servidor.</p>
-                <li class="lista_privacidad">Derechos de los Usuarios</li>
-                <p>Los usuarios tienen derecho a acceder, corregir u eliminar sus datos personales y metadatos. Para ejercer estos derechos o realizar consultas sobre la privacidad de sus datos, puedes ponerse en contacto con nosotros a través de nuestro <a href="https://discord.gg/8dwVxfBRbQ">Servidor de Discord</a></p>
-                <li class="lista_privacidad">Consentimiento Activo</li>
-                <p>Al utilizar a <strong>LProyectFx</strong>, los usuarios otorgan su consentimiento explícito para la recopilación y el uso de sus metadatos de acuerdo con estas políticas de privacidad.</p>
-                <li class="lista_privacidad">Aceptacion de Políticas</li>
-                <p>Al utilizar a <strong>LProyectFx</strong>, aceptas estas <a href="./politicas-privacidad.html">Politicas de privacidad</a>, los <a href="../index.html">Terminos de servicio</a> y el compromiso de respetar la privacidad de los demás usuarios. Si tienes alguna duda o inquietud sobre nuestras políticas de privacidad, no dudes en ponerte en contacto con nosotros mediante nuestro servidor de discord!</p>
-            </ol>
-        </main>
+            <main>
+                <h3 onclick="toggleVisibility('recopilacionDeDatos')">1.1 Recopilación de datos</h3>
+                <p id="recopilacionDeDatos"><strong>LProyectFx</strong> puede recopilar metadatos de tu perfil como nombre de usuario en el servidor, roles, insignias, fecha de union entre otras preferencias de configuración, para mejorar la experiencia del usuario.</p>
+                
+                <h3 onclick="toggleVisibility('usoDeDatos')">1.2 Uso de Datos</h3>
+                <p id="usoDeDatos">Los datos recopilados por <strong>LProyectFx</strong> se utilizaran únicamente para mejorar la funcionalidad del bot, como los comandos y la experiencia de los usuarios en los servidores.</p>
+                
+                <h3 onclick="toggleVisibility('seguridadDeDatos')">1.3 Seguridad de Datos</h3>
+                <p id="seguridadDeDatos"><strong>LProyectFx</strong> Implementará medidas de seguridad adecuadas, como encriptacion y acceso restringido, para proteger los datos recopilados de accesos no autorizados o uso indebido.</p>
+            
+                <h3 onclick="toggleVisibility('divulgacionDeDatos')">1.4 Divulgacion de Datos</h3>
+                <p id="divulgacionDeDatos"><strong>LProyectFx</strong> no compartirá ningun tipo de información de los usuarios con terceros sin consentimiento, salvo que sea requerido por la ley o por las reglas del servidor.</p>
+            
+                <h3 onclick="toggleVisibility('derechosDeLosUsuarios')">1.5 Derechos de los Usuarios</h3>
+                <p id="derechosDeLosUsuarios">Los Usuarios tienen total derecho a acceder, corregir u eliminar sus datos personales y metadatos de Discord. Para ejercer estos derechos o realizar consultas sobre la privacidad de sus datos, puedes ponerte en contacto con nosotros a través de nuestro <a href="https://discord.gg/8dwVxfBRbQ">Servidor de Discord</a></p>
+
+                <h3 onclick="toggleVisibility('aceptacionDePoliticas')">1.6 Aceptación de Politicas</h3>
+                <p id="aceptacionDePoliticas">Al utilizar a <strong>LProyectFx</strong>, aceptas estas <a href="./politicas-privacidad.html">Políticas de privacidad</a> y te comprometes a respetar la privacidad de los demas usuarios. Si tienes alguna duda o inquietud sobre nuestras politicas de privacidad, no dudes en ponerte en contacto con nosotros mediante nuestro <a href="https://discord.gg/8dwVxfBRbQ">Servidor de Discord <br><br><a href="../index.html">Terminos de servicios</a></a></p>
+            </main>
     </body>
 </html>
